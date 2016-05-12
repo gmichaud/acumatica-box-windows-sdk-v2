@@ -1,5 +1,4 @@
 ﻿using Box.V2.Request;
-using Nito.AsyncEx;
 using System.Threading.Tasks;
 
 namespace Box.V2.Services

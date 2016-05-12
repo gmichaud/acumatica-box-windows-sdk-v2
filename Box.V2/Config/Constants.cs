@@ -7,10 +7,12 @@ namespace Box.V2.Config
 {
     public static class Constants
     {
-        /*** Base API URIs ***/
-        public const string BoxApiHostUriString = "https://app.box.com/api/";
+        /*** Original Base API URIs ***/
+        //public const string BoxApiHostUriString = "https://app.box.com/api/";
         public const string BoxApiUriString = "https://api.box.com/2.0/";
         public const string BoxUploadApiUriString = "https://upload.box.com/api/2.0/";
+
+        public const string BoxApiHostUriString = "https://app.boxenterprise.net/api/";
 
         /*** API Endpoints ***/
         public const string AuthCodeString = @"oauth2/authorize";
