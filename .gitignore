@@ -156,3 +156,10 @@ $RECYCLE.BIN/
 # Mac desktop service store files
 .DS_Store
 *.nupkg
+
+# =========================
+# Custom
+# =========================
+
+#Key files
+*.snk
