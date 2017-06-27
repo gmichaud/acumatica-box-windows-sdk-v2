@@ -12,6 +12,7 @@ namespace Box.V2.Config
         public const string BoxApiUriString = "https://api.box.com/2.0/";
         public const string BoxUploadApiUriString = "https://upload.box.com/api/2.0/";
 
+        // app.box.com is blocked in some countries; this works around the block
         public const string BoxApiHostUriString = "https://app.boxenterprise.net/api/";
 
         /*** API Endpoints ***/
