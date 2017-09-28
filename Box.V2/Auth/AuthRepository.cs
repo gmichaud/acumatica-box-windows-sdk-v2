@@ -73,7 +73,7 @@ namespace Box.V2.Auth
         /// <returns></returns>
         public virtual async Task<OAuthSession> AuthenticateAsync(string authCode)
         {
-            OAuthSession session = await ExchangeAuthCode(authCode);
+            OAuthSession session = await ExchangeAuthCode(authCode).ConfigureAwait(false);
 
             using (await _mutex.LockAsync().ConfigureAwait(false))
             {
