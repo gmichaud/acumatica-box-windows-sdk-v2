@@ -42,7 +42,7 @@ namespace Box.V2.Extensions
                     }
                     else
                     {
-                        throw new BoxException("Forbidden");
+                        throw new BoxException("Forbidden : " + response.ContentString);
                     }
                 default:
                     if (!string.IsNullOrWhiteSpace(response.ContentString))
