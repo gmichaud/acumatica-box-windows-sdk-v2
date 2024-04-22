@@ -5,7 +5,10 @@ namespace Box.V2.Config
     public static class Constants
     {
         /*** Base API URIs ***/
-        public const string BoxApiHostUriString = "https://api.box.com/";
+        // public const string BoxApiHostUriString = "https://api.box.com/";
+        // box.com is blocked in some countries; this works around the block
+        public const string BoxApiHostUriString = "https://app.boxenterprise.net/api/";
+
         public const string BoxAccountApiHostUriString = "https://account.box.com/api/";
         public const string BoxUploadApiUriWithoutVersionString = "https://upload.box.com/api/";
 
